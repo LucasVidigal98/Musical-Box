@@ -1,0 +1,62 @@
+.box-container {
+  width: 1000px;
+  height: 400px;
+  background-color: white;
+  border-radius: 8px;
+  background: url("../../assets/background.jpg");
+}
+
+.box-content {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.auidio-btn-play {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auidio-btn-play > img {
+  object-fit: contain;
+}
+
+.audio-btn-pause {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disabled {
+  width: 15px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.enable {
+  background: chartreuse !important;
+}
